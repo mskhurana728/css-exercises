@@ -1,0 +1,16 @@
+.oddNo{
+    background-color: rgb(251, 135, 135);
+    font-family: Verdana,'DejaVu Sans',sans-serif;
+}
+#second{
+    color: blue;
+    font-size: 36px;
+}
+#third{
+    font-size: 24px;
+}
+#fourth{
+    background-color: rgb(118, 248, 118);
+    font-size: 24px;
+    font-weight: bold;
+}
