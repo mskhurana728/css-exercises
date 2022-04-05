@@ -71,6 +71,7 @@ body{
   gap: 10px;
   justify-content: space-around;
   background-color: #FF7755;
+  
 }
 
 .sidebar .photo {
@@ -89,20 +90,30 @@ body{
   color: black;
   font-size: 16px;
   font-weight: normal;
+
+}
+.side-content {
+margin-top: 1rem;
 }
 
 .nav {
   grid-column: 3/-1;
   grid-row: 3/4;
+  display: grid;
   background-color: #FF7755;
 }
 
 .nav ul {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  place-items: center;
 }
 
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
 }
 
 .article {
